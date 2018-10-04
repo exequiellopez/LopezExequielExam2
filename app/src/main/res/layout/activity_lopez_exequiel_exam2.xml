@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/alphaOmega"
+    tools:context=".LopezExequielExam2">
+
+    <TextView
+        style="@style/topBar"
+        android:text="Card Activity" />
+
+    <LinearLayout style="@style/boxTop">
+
+        <LinearLayout style="@style/innerBoxTop">
+
+            <TextView
+                android:id="@+id/textView"
+                style="@style/nameTop"
+                android:text="@string/nameTitleTop" />
+
+            <TextView
+                android:id="@+id/textView5"
+                style="@style/descriptionTop"
+                android:text="@string/descTop" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                style="@style/imageTop"
+                app:srcCompat="@drawable/buffsuki" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/boxMid">
+
+        <LinearLayout style="@style/innerBoxMid">
+
+            <TextView
+                android:id="@+id/textView6"
+                style="@style/nameMid"
+                android:text="@string/nameTitleMid" />
+
+            <TextView
+                android:id="@+id/textView7"
+                style="@style/descriptionMid"
+                android:text="@string/descMid" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                style="@style/imageMid"
+                android:paddingRight="30dp"
+                android:scaleX="-1"
+                app:srcCompat="@drawable/buffyuri" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout style="@style/boxBot">
+
+        <LinearLayout style="@style/innerBoxBot">
+
+            <TextView
+                android:id="@+id/textView8"
+                style="@style/nameBot"
+                android:text="@string/nameTitleBot" />
+
+            <TextView
+                android:id="@+id/textView9"
+                style="@style/descriptionBot"
+                android:text="@string/descBot" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                style="@style/imageBot"
+                app:srcCompat="@drawable/buffsayori" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="14dp"
+        android:layout_marginStart="86dp"
+        android:layout_weight="1"
+        android:onClick="onClick"
+        android:text="NEXT" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/button"
+        android:layout_marginEnd="71dp"
+        android:onClick="onClick"
+        android:text="MAP" />
+
+</RelativeLayout>

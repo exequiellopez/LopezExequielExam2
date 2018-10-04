@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">LopezExequielExam1</string>
+    <string name="nameTitleTop">
+        Buff Suki \nMilitary General
+    </string>
+
+    <string name="descTop">
+        Buff was a German politician, demagogue, Pan-German revolutionary, and leader of the Nazi Party.
+    </string>
+
+    <string name="nameTitleMid">
+        Buff Yuri \nPlaywright
+    </string>
+
+    <string name="descMid">
+    Yuri was an English poet, playwright and actor, widely regarded as both the greatest writer in the English language and the world's pre-eminent dramatist.
+    </string>
+
+    <string name="nameTitleBot">
+        Buff Sayori \nRocket Scientist
+    </string>
+
+    <string name="descBot">
+        Sayori was a New Zealand-born rocket scientist who headed Pasadena, California's Jet Propulsion Laboratory (JPL) for 22 years, retiring in 1976.
+    </string>
+
+</resources>
